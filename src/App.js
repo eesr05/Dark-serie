@@ -1,7 +1,7 @@
-import logo from './sic.png';
 import GlobalStyle from './assets/global';
 import Nav from  './components/Nav/Navbar'
 import Header from './components/Header/Header'
+import Quem from  './components/Quem/Quem'
 import './App.css';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <GlobalStyle />
       <Nav />  
       <Header />
+      <Quem />
      
       <p>
           Dark 

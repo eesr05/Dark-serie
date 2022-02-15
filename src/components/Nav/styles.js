@@ -19,7 +19,7 @@ export const Logo = styled.div`
         width:15px;
         height:30px;
         position:absolute;
-        margin: 40px;    
+        margin: 0 45px 0 0 ;    
         right: 0;
     }
     p{        
