@@ -11,7 +11,8 @@ export default function Quem(){
         {imagem.map((image)=>{
             return(
                  <ContainerCard>
-                     <img className="Quem" src={image.img} alt={image.title}></img>
+                     <img className="Quem" src={require(`${image.img}`)} alt={image.title}></img>
+                     <br />
                      <p key={image.id}className="Quem-Nome">{image.title}</p>
                     
                  </ContainerCard>   

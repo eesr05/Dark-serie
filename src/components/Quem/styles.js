@@ -25,18 +25,28 @@ export const Container = styled.div`
 export const ContainerCard = styled.div`
     position: relative;
     left: 8%;
-    top: 200px;
+    top: 100px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+   border: 1px solid red;   
+ 
     text-align: center;
+    
     .Quem{
         position: relative;
-    left: 8%;
-    top: 200px;
-
+        left: 8%;
+        top: 200px;
+        height:10rem;
+        margin-bottom: 45px;        
+       
     }
     .Quem-Nome{
         font-size:12px;
+        left: -5%;
+        color: white;
+        font-weight: 600;
+        top: 150px;
+        text-transform: uppercase;
+        
     }
 
 `
