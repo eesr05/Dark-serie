@@ -4,7 +4,7 @@ import img from '../../assets/Nlogo.png'
 
 export default function Nav (children) {
     return(
-      <>
+         <>
               <Navbar >      
                   <Logo>
                     <img src={img} alt="" srcset="" />
@@ -15,12 +15,7 @@ export default function Nav (children) {
                         <li>QUANDO</li>
                     </ul>
                   </Logo> 
-               </Navbar>
-       
-      
-     
-      </>
-      
+                </Navbar>  
+        </>      
     )
-
 }

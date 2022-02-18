@@ -11,12 +11,6 @@ function App() {
       <Nav />  
       <Header />
       <Quem />
-     
-      <p>
-          Dark 
-        </p>    
-         <p>Everything is connected </p> 
-  
     </>
   );
 }

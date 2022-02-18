@@ -37,7 +37,6 @@ export const Logo = styled.div`
         margin: 0 -10rem 0 25rem;
         align-items: center;
         margin-top: 12px;
-    }
-   
+    }   
 `
 

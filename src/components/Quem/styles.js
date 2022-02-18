@@ -1,10 +1,12 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    margin: 500px;
+     margin: 500px; 
     height:900px;
     background:var(--background);
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align:center;
     p, img{
         color: var(--shape);
         font-size: 2.7rem;
@@ -12,7 +14,8 @@ export const Container = styled.div`
         z-index: 2;
         left: 47%;
         top: 129%;
-        letter-spacing: 10px;       
+        letter-spacing: 10px;   
+        display: inline-block;    
     }
     img{
         z-index: 1;
@@ -20,33 +23,27 @@ export const Container = styled.div`
         left:46.5%;
         height:17%;
     }
-   
-`
-export const ContainerCard = styled.div`
-    position: relative;
-    left: 8%;
-    top: 100px;
-    display: grid;
-   border: 1px solid red;   
- 
-    text-align: center;
-    
+
     .Quem{
-        position: relative;
-        left: 8%;
-        top: 200px;
-        height:10rem;
+        position: relative;        
+        left: 3%;
+        top: 20px;
+        height:11rem;
         margin-bottom: 45px;        
        
     }
     .Quem-Nome{
+        position: absolute;
         font-size:12px;
-        left: -5%;
-        color: white;
-        font-weight: 600;
-        top: 150px;
-        text-transform: uppercase;
-        
+        left: 4%;
+        color: var(--shape);        
+        top: 11rem;
+        margin-top:1.5rem;
+        letter-spacing:normal;            
     }
-
+   
+`
+export const Containergrid = styled.div`  
+    position: relative;
+    display: grid; 
 `

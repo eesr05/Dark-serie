@@ -9,16 +9,16 @@ export default function Header(children) {
   return(
     <>
     <Head>
-      <div>
-      <p>Original Netflix</p>
-      <p>DARK</p>
-      <p>Tudo está conectado</p>    
-       <img src={img} alt="" srcset="" /> 
-       <button>
-         <ScrollToTop smooth component={<p></p>}/>
-         <img src={img2} alt="" srcset></img>
-       </button>
-      </div>  
+        <div>
+          <p>Original Netflix</p>
+          <p>DARK</p>
+          <p>Tudo está conectado</p>    
+          <img src={img} alt="" srcset="" /> 
+          <button>
+            <ScrollToTop smooth component={<p></p>}/>
+            <img src={img2} alt="" srcset></img>
+          </button>
+        </div>  
     </Head>   
     </>
   )
