@@ -12,7 +12,7 @@ function App() {
       <Nav />  
       <Header />
       <Quem />
-      <Onde /> 
+      {/* <Onde />  */}
     </>
   );
 }
