@@ -7,6 +7,7 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align:center;
+    margin-bottom:100px;
     p, img{
         color: var(--shape);
         font-size: 2.7rem;

@@ -1,8 +1,9 @@
 import styled from "styled-components";
 export const Container = styled.div`
    
-   
-    height:1900px;
+   border: 1px solid red;
+   margin-top:150rem;
+    height:900px;
     background:var(--background);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -10,16 +11,16 @@ export const Container = styled.div`
     p, img{
         color: var(--shape);
         font-size: 2.7rem;
-        position: absolute;
+        position: relative;
         z-index: 2;
         left: 47%;
         top: 129%;
         letter-spacing: 10px;   
-        display: inline-block;    
+        /* display: inline-block;     */
     }
     img{
         z-index: 1;
-        top:126%;
+        top:12%;
         left:46.5%;
         height:17%;
     }
@@ -27,7 +28,7 @@ export const Container = styled.div`
     .Quem{
         position: relative;        
         left: 3%;
-        top: 20px;
+        top: 170rem;
         height:11rem;
         margin-bottom: 45px;        
        
@@ -37,8 +38,8 @@ export const Container = styled.div`
         font-size:12px;
         left: 4%;
         color: var(--shape);        
-        top: 11rem;
-        margin-top:1.5rem;
+        top: 190rem;
+        margin-top:-2rem;
         letter-spacing:normal;            
     }
    
